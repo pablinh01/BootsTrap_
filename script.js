@@ -14,6 +14,6 @@ const appendAlert = (message, type) => {
 const alertTrigger = document.getElementById('liveAlertBtn')
 if (alertTrigger) {
   alertTrigger.addEventListener('click', () => {
-    appendAlert('Nice, you triggered this alert message!', 'success')
+    appendAlert('Um dos sobreviventes desse pesadelo relatou o terror de escapar da fúria assassina de Pocoyo. As ruas antes pacíficas de Pocoyolandia se transformaram em um campo de batalha, onde a luta pela sobrevivência era a única coisa que importava. O sobrevivente mal conseguia acreditar no que estava testemunhando - seu amigo de longa data se transformara em uma ameaça mortal, e ele não tinha ideia do que poderia ter desencadeado essa transformação sombria.', 'success')
   })
 }
